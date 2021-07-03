@@ -1,0 +1,32 @@
+// Area Chart
+.chart-area {
+  position: relative;
+  height: 10rem;
+  width: 100%;
+  @include media-breakpoint-up(md) {
+    height: 20rem;
+  }
+}
+
+// Bar Chart
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 140px;
+}
+
+// Pie Chart
+.chart-pie {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+  @include media-breakpoint-up(md) {
+    height: calc(20rem - 43px) !important;
+  }
+}
